@@ -1,3 +1,4 @@
+--credits to rekitrelt
 local Spawner = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local toplace = Instance.new("TextBox")
@@ -306,4 +307,4 @@ waterswitch.MouseButton1Click:Connect(function()
 	ws1.Parent = workspace[text]
 	ws1.top.Position = workspace.char.Position+Vector3.new(0,6,0)
 end)
-
+--credits to rekitrelt
